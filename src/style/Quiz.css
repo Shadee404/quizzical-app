@@ -1,0 +1,101 @@
+.correct-answer {
+    background-color: #94D7A2 !important;
+}
+  
+.incorrect-answer {
+    background-color: #F8BCBC !important;
+}
+
+.question__title {
+    font-family: 'Karla';
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #293264;
+}
+
+.question__answers {
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 0.64rem;
+    line-height: 0.75rem;
+    color: #293264;
+}
+
+.question__radio {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.question input[type="radio"]:checked + label {
+    background: #D6DBF5;
+    border: 0.05rem transparent solid;
+}
+
+.question input[type="radio"] {
+    opacity: 0.011;
+    z-index: 5;
+}
+
+.question label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    min-width: 4.125rem;
+    height: 1.3rem;
+    border: 0.05rem #4D5B9E solid;
+    margin-right: 0.6rem;
+    width: max-content;
+}
+
+.question {
+    position: relative;
+    border-bottom: 0.05rem #DBDEF0 solid;
+    padding-bottom: 1rem;
+}
+
+.button {
+    display: block;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 0.64rem;
+    line-height: 0.75rem;
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    width: 7.5rem;
+    height: 2.25rem;
+    border-radius: 0.625rem;
+    border: none;
+    cursor: pointer;
+}
+
+.quiz__score {  
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 0.8rem;
+    color: #293264;
+}
+
+.quiz__check {
+    margin: 1.5rem auto;
+}
+
+.quiz__restart {
+    height: 1.88rem;
+}
+
+.quiz__play-again {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1.5rem auto;
+}
